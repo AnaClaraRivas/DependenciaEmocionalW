@@ -1,0 +1,12 @@
+.btn-modal{
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-left: 40%;
+    margin-right: 40%;
+    background-color: #6290c8;
+    border-color: #6290c8;
+}
+.btn-modal:focus{
+    background-color: #6290c8;
+    border-color: #6290c8
+}
