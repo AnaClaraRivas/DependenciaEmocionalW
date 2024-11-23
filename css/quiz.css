@@ -1,0 +1,99 @@
+/* Geral */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #2124B1, rgb(2, 8, 24));
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .quiz-container {
+    background: #fff;
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    animation: fadeIn 0.5s ease;
+  }
+  
+  /* Animação */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Botões */
+  .btn {
+    background: #2124B1;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .btn:hover {
+    background: rgb(2, 8, 24);
+  }
+  
+  /* Opções */
+  .option-btn {
+    background: #f4f4f4;
+    color: #333;
+    border: none;
+    padding: 10px 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    transition: all 0.3s ease;
+  }
+  
+  .option-btn:hover {
+    background: #a5bdff;
+  }
+  
+  .correct {
+    background: #4caf50;
+    color: #fff;
+  }
+  
+  .wrong {
+    background: #f44336;
+    color: #fff;
+  }
+  
+  /* Ocultar elementos */
+  .hidden {
+    display: none;
+  }
+
+  ul {
+    text-align: left;
+    padding-left: 20px;
+    margin: 20px 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  
+  
