@@ -22,7 +22,7 @@ const questions = [
     {
       question: "Qual é a ideia central sobre a pessoa que depende emocionalmente do parceiro?",
       options: ["A pessoa sente que pode viver sem o parceiro."," A pessoa se sente mais segura e feliz.", "A pessoa acredita que só será feliz ou conseguirá sobreviver se o outro estiver ao seu lado.", " A pessoa está em um relacionamento equilibrado e saudável."],
-      correct: 0
+      correct: 2
     }
   ];
   

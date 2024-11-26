@@ -247,6 +247,8 @@ h6,
 }
 
 
+
+
 /*** Service ***/
 .service-item {
     position: relative;
@@ -523,3 +525,34 @@ h6,
     padding-right: 0;
     border-right: none;
 }
+
+.galeria{
+    margin:5%;
+}
+
+.card{
+    border: none;
+    margin:2%;
+}
+
+.card-body {
+    transition: all 0.3s ease-in-out;  /* Animação suave */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  /* Sombra inicial */
+    border-radius: 8px;  /* Bordas arredondadas */
+    color: black;
+    
+}
+
+.card-body:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);  /* Sombra mais intensa no hover */
+    background-color: #2124B1;
+    color: #DDDDDD;
+   
+
+}
+
+.card-body:hover .card-title {
+    color: #FFFFFF;  /* Cor branca no título durante o hover */
+}
+
+
