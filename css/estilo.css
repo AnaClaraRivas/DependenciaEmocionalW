@@ -36,7 +36,76 @@ section{
     margin-left: 15%;
 }
 
+.titulo{
+    font-size: 40px;
+}
 
+.navbar-toggler {
+    border: none;
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand h1 {
+        font-size: 1.5rem;
+    }
+    .navbar-nav .nav-link {
+        font-size: 0.9rem;
+    }
+}
+
+/* Telas muito pequenas (smartphones em modo retrato) */
+@media (max-width: 576px) {
+   .img_sobre{
+    width: 40%;
+   }
+
+   .tres_cima{
+    width: 60%;
+   }
+
+   .titulo{
+    font-size: 15px;
+   }
+
+   .row{
+    width: 100%;
+   }
+
+   .container{
+    width: 80%;
+   }
+
+}
+
+/* Telas pequenas (smartphones em modo paisagem, tablets menores) */
+@media (min-width: 577px) and (max-width: 768px) {
+    
+}
+
+/* Telas médias (tablets maiores e notebooks pequenos) */
+@media (min-width: 769px) and (max-width: 992px) {
+    
+}
+
+/* Telas grandes (desktops normais) */
+@media (min-width: 993px) and (max-width: 1200px) {
+    .row{
+        margin-left: 100px;
+        width: 100%;
+    }
+
+}
+
+/* Telas muito grandes (monitores 4K ou maiores) */
+@media (min-width: 1201px) {
+    
+}
 
 
 
