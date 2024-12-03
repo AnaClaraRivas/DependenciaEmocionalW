@@ -555,4 +555,7 @@ h6,
     color: #FFFFFF;  /* Cor branca no título durante o hover */
 }
 
-
+.tamanho{
+    margin-right: 4%;
+    margin-left: 1%;
+}
