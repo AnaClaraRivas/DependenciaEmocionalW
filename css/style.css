@@ -616,3 +616,6 @@ h6,
     background-color: #e9ecef;
     color: #007bff;
 }
+@media (max-width: 600px) {
+    margin:none;
+    }
