@@ -5,7 +5,14 @@
     --light: #F7FAFF;
     --dark: #1D1D27;
 }
+@media (max-width: 1432){
+    body{
+        margin: 0.5%;
 
+    }
+    
+    
+}
 
 /*** Spinner ***/
 #spinner {
