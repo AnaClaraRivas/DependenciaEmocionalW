@@ -8,7 +8,7 @@ section{
 }
 
 .livros{
-    width: 70%;
+    width: 90%;
     margin-left: 20%;
     margin-bottom: 30%;
 }
@@ -60,6 +60,8 @@ section{
     margin-top: 2%;
 }
 
+
+
 @media (max-width: 768px) {
     .navbar-brand h1 {
         font-size: 1.5rem;
@@ -70,7 +72,7 @@ section{
 }
 
 /* Telas muito pequenas (smartphones em modo retrato) */
-@media (max-width: 576px) {
+@media (max-width: 600px) {
    .img_sobre{
     width: 40%;
    }
@@ -88,6 +90,10 @@ section{
    }
 
    .container{
+    width: 80%;
+   }
+
+   .livros{
     width: 80%;
    }
 
