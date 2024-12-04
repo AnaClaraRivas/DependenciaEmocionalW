@@ -555,7 +555,58 @@ h6,
     color: #FFFFFF;  /* Cor branca no título durante o hover */
 }
 
-.tamanho{
-    margin-right: 4%;
-    margin-left: 1%;
+
+.banner-img {
+    display: block; /* Garante que seja tratada como um elemento de bloco */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    border-radius: 8px; /* Opcional: bordas arredondadas */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Animação no hover */
+    margin-bottom: 5%;
+}
+
+.banner-img:hover {
+    transform: scale(1.05); /* Aumenta levemente a imagem */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); /* Adiciona um sombreado */
+}
+
+.btn-modal{
+    margin-bottom: 4%;
+}
+
+.image-container {
+    overflow: hidden; /* Esconde a parte da imagem que sai da área definida */
+    position: relative; /* Para garantir o posicionamento relativo dos elementos */
+}
+
+.image-container img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Adiciona a transição suave */
+}
+
+.image-container:hover img {
+    transform: scale(1.1); /* Aumenta a imagem 10% ao passar o mouse */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra mais intensa */
+}
+
+#liveAlertPlaceholder .alert {
+    background-color:rgba(33, 66, 177,0.8);
+    color: white;
+    border-radius: 5px;
+    margin: 1%;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+.accordion-item {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+.accordion-button {
+    background-color: #f7f7f7;
+    color: #000;
+    font-weight: bold;
+}
+.accordion-button:not(.collapsed) {
+    background-color: #e9ecef;
+    color: #007bff;
 }
