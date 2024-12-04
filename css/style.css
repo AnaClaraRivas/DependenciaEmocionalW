@@ -112,7 +112,9 @@ h6,
     max-height: 45px;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1299px) {
+
+    
     .sticky-top.navbar-light {
         position: relative;
         background: #FFFFFF;
@@ -126,7 +128,7 @@ h6,
     .navbar-light .navbar-nav .nav-link,
     .sticky-top.navbar-light .navbar-nav .nav-link {
         padding: 10px 0;
-        margin-left: 0;
+        margin-left: 1%;
         color: var(--dark) !important;
     }
 
@@ -137,9 +139,13 @@ h6,
     .navbar-light .navbar-brand img {
         max-height: 45px;
     }
+
+    
 }
 
-@media (min-width: 992px) {
+    
+
+@media (min-width: 1300px) {
     .navbar-light {
         position: absolute;
         width: 100%;
