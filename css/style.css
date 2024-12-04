@@ -5,14 +5,18 @@
     --light: #F7FAFF;
     --dark: #1D1D27;
 }
-@media (max-width: 1432){
-    body{
-        margin: 0.5%;
-
+body {
+    margin-left: 8%; /* Remove a margem à esquerda */
+  }
+  
+  @media (max-width: 768px) { /* Aplica as alterações para dispositivos móveis */
+    body {
+      margin-left: 0; /* Garante que a margem à esquerda seja removida no celular */
     }
+  }
     
     
-}
+
 
 /*** Spinner ***/
 #spinner {
