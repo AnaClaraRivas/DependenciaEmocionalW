@@ -65,6 +65,11 @@ section{
 }
 
 
+.container-xxl{
+    
+}
+
+
 
 @media (max-width: 768px) {
     .navbar-brand h1 {
@@ -73,8 +78,6 @@ section{
     .navbar-nav .nav-link {
         font-size: 0.9rem;
     }
-
-  
 }
 
 /* Telas muito pequenas (smartphones em modo retrato) */
@@ -121,13 +124,21 @@ section{
         margin-right: 100%;
         width: 100%;
     }
-    
 
+    .fw-bold{
+        font-size: 15px;
+    }
+
+    .profs{
+        font-size: 8px;
+    }
 }
 
 /* Telas muito grandes (monitores 4K ou maiores) */
-@media (min-width: 1201px) {
-    
+@media (min-width: 765px) and (max-width: 1400px) {
+    body{
+        padding-right: 5%;
+    }
 }
 
 .nomes-footer{

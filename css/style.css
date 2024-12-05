@@ -5,9 +5,9 @@
     --light: #F7FAFF;
     --dark: #1D1D27;
 }
-body {
-    margin-left: 8%; /* Remove a margem à esquerda */
-  }
+/* body {
+    margin-left: 8%; /* Remove a margem à esquerda 
+    } */
   
   @media (max-width: 768px) { /* Aplica as alterações para dispositivos móveis */
     body {
@@ -15,10 +15,10 @@ body {
     }
   }
     
-.oioi{
+/* .oioi{
     padding-left: 13%;
 }
-
+ */
 
 /*** Spinner ***/
 #spinner {
